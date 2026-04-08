@@ -1,2 +1,30 @@
-# Ciccopn-Final-PyQT6
-Repo do Projeto Final de Curso de Python, versão PyQT6.
+# Imobiliario PyQt6
+
+Aplicação desktop em PyQt6 para gestão e consulta de imóveis, com base de dados existente.
+
+## Abordagem
+Vamos construir em passos curtos e validados.
+Cada passo ficará documentado em `docs/passos`.
+
+## Configuração rápida
+1. Instalar dependências de `requirements.txt`.
+2. Copiar `.env.example` para `.env` e preencher credenciais MySQL.
+3. Garantir que o schema está criado na base de dados.
+4. Executar a aplicação pelo ponto de entrada `src/main.py`.
+
+## Estado atual
+- Projeto inicializado
+- Estrutura base criada (`src/` e `docs/passos/`)
+- Integração base com MySQL concluída
+- Janela principal com 3 funcionalidades v1:
+	- listar imóveis
+	- pesquisar imóveis
+	- criar anúncio
+
+## Documentação por passo
+- `docs/passos/passo-01-inicio-e-planeamento.md`
+- `docs/passos/passo-02-mysql-e-base-da-app.md`
+- `docs/passos/passo-03-pesquisa-por-localizacao.md`
+- `docs/passos/passo-04-dropdowns-no-criar-anuncio.md`
+- `docs/passos/passo-05-dropdown-anunciante-por-email.md`
+- `docs/passos/passo-06-dropdown-anunciante-nome-email-tipo.md`
