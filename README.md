@@ -1,4 +1,6 @@
-## Nota Importante: Para efeitos de gestão de tempo, foi utilizada IA - e consequentemente bastante Vibe Coding. Em termos de BD, não houve IA envolvida.
+# Nota Importante 1: Para efeitos de gestão de tempo, foi utilizada IA - e consequentemente Vibe Coding. Em termos de BD, não houve IA envolvida.
+
+##  Importante 2: As credenciais não vão funcionar fora do Ciccopn, terá de ser feita nova BD utilizando os ficheiros .sql fornecidos, e conectada corretamente nos ficheiros `db.py` e `.env`.
 
 # Imobiliario PyQt6
 
@@ -10,7 +12,7 @@ Cada passo ficará documentado em `docs/passos`.
 
 ## Configuração rápida
 1. Instalar dependências de `requirements.txt`.
-2. Copiar `.env.example` para `.env` e preencher credenciais MySQL.
+2. Copiar `.env.example` para `.env` e preencher credenciais MySQL - Já feito por defeito.
 3. Garantir que o schema está criado na base de dados.
 4. Executar a aplicação pelo ponto de entrada `src/main.py`.
 
