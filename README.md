@@ -1,3 +1,5 @@
+## Nota Importante: Para efeitos de gestão de tempo, foi utilizada IA - e consequentemente bastante Vibe Coding. Em termos de BD, não houve IA envolvida.
+
 # Imobiliario PyQt6
 
 Aplicação desktop em PyQt6 para gestão e consulta de imóveis, com base de dados existente.
@@ -28,3 +30,6 @@ Cada passo ficará documentado em `docs/passos`.
 - `docs/passos/passo-04-dropdowns-no-criar-anuncio.md`
 - `docs/passos/passo-05-dropdown-anunciante-por-email.md`
 - `docs/passos/passo-06-dropdown-anunciante-nome-email-tipo.md`
+- `docs/passos/passo-07-melhoria-visual-tema-azul-bege.md`
+- `docs/passos/passo-08-cabecalho-e-filtros-avancados-pesquisa.md`
+- `docs/passos/passo-09-limpar-filtros-e-contador-resultados.md`

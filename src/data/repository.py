@@ -93,7 +93,12 @@ class ImovelRepository:
     def pesquisar_imoveis(
         self,
         texto: str,
+        preco_min: float | None = None,
         preco_max: float | None = None,
+        area_min: float | None = None,
+        area_max: float | None = None,
+        tipologia: int | None = None,
+        numero_wc: int | None = None,
         id_distrito: str | None = None,
         id_concelho: str | None = None,
         id_freguesia: str | None = None,
@@ -101,9 +106,29 @@ class ImovelRepository:
         filtros = ["(i.morada LIKE %s OR i.descricao LIKE %s)"]
         params: list[Any] = [f"%{texto}%", f"%{texto}%"]
 
+        if preco_min is not None:
+            filtros.append("i.preco >= %s")
+            params.append(preco_min)
+
         if preco_max is not None:
             filtros.append("i.preco <= %s")
             params.append(preco_max)
+
+        if area_min is not None:
+            filtros.append("i.area >= %s")
+            params.append(area_min)
+
+        if area_max is not None:
+            filtros.append("i.area <= %s")
+            params.append(area_max)
+
+        if tipologia is not None:
+            filtros.append("i.numero_quartos = %s")
+            params.append(tipologia)
+
+        if numero_wc is not None:
+            filtros.append("i.numero_wc = %s")
+            params.append(numero_wc)
 
         if id_distrito:
             filtros.append("d.id_distrito = %s")
