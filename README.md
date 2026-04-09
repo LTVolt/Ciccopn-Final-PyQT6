@@ -1,6 +1,6 @@
-# Nota Importante 1: Para efeitos de gestão de tempo, foi utilizada IA - e consequentemente Vibe Coding. Em termos de BD, não houve IA envolvida.
+# Nota Importante 1: Para efeitos de gestão de tempo, foi utilizada IA - e consequentemente Vibe Coding. Em termos de BD (SQL), não houve IA envolvida.
 
-# Nota Importante 2: As credenciais não vão funcionar fora do Ciccopn, terá de ser feita nova BD utilizando os ficheiros .sql fornecidos, e conectada corretamente nos ficheiros `db.py` e `.env`.
+# Nota Importante 2: As credenciais não vão funcionar fora do Ciccopn, terá de ser feita nova BD utilizando o ficheiro .sql fornecido, e conectada corretamente nos ficheiros `db.py` e `.env`.
 
 # Imobiliario PyQt6
 
