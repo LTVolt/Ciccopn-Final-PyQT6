@@ -2,6 +2,8 @@
 
 # Nota Importante 2: As credenciais não vão funcionar fora do Ciccopn, terá de ser feita nova BD utilizando o ficheiro .sql fornecido, e conectada corretamente nos ficheiros `db.py` e `.env`.
 
+# Nota Importante 3: O ficheiro `200imoveisrandom` tem 200 imoveis para popular a BD. Contudo, será necessário criar pelo menos 18 anunciantes para popular essa tabela.
+
 # Imobiliario PyQt6
 
 Aplicação desktop em PyQt6 para gestão e consulta de imóveis, com base de dados existente.
