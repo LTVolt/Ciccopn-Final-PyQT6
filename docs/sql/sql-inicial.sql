@@ -67,7 +67,7 @@ create table imovel (
     data_construcao date,
     area decimal(6,2) not null,
     id_anunciante int not null,
-    id_freguesia int not null,
+    id_freguesia varchar(9) not null,
     foreign key (id_anunciante) references anunciante(id_anunciante),
     foreign key (id_freguesia) references freguesia(id_freguesia)
 );
